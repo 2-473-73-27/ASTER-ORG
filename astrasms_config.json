@@ -1,0 +1,29 @@
+{
+  "project": "AstraSMS Portal",
+  "version": "1.0.0",
+  "framework": "Flask",
+  "language": "Python",
+  "files": [
+    "app.py",
+    "index.html",
+    "run.sh",
+    "AstraManager-Backend.js"
+  ],
+  "routes": [
+    "/",
+    "/login",
+    "/logout",
+    "/upload_image",
+    "/set_logo"
+  ],
+  "credentials": [
+    {
+      "username": "Muhammad",
+      "role": "MANAGER ACCOUNT"
+    },
+    {
+      "username": "test123",
+      "role": "TEST PORTAL"
+    }
+  ]
+}
